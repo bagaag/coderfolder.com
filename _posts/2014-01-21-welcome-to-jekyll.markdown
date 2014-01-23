@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "First Post!"
-date:   2014-01-21 22:10:10
 categories: jekyll about
 ---
 
