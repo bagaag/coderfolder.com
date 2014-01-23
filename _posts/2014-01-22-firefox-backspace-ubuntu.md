@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to make the Backspace key work in Firefox on Ubuntu
+title: "Make the Backspace key work in Firefox on Ubuntu"
 categories: ubuntu
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get the screen brightness keys working in Ubuntu on the Thinkpad E430
+title: "Get the screen brightness keys working in Ubuntu on the Thinkpad E430"
 categories: ubuntu
 ---
 

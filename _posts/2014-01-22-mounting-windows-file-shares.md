@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to mount a Windows file share in Ubuntu as a normal user"
+title: "Mount a Windows file share in Ubuntu as a normal user"
 categories: ubuntu
 ---
 
