@@ -1,4 +1,5 @@
 ---
+date: 2014-01-23
 layout: post
 title:  "Customize Key Bindings in Ubuntu's Text Editor (GEdit)"
 categories: ubuntu
