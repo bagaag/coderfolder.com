@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Post!"
-categories: jekyll about
+categories: about
 ---
 
 Started a new thing tonight. I installed Ubuntu for the first time in years (it's come a long way) and am geeking out with [Jekyll](http://jekyllrb.com/) hosted on [Github Pages](http://pages.github.com/). Fun stuff.
