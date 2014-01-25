@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Programming Ideas"
-categories: 
+tags: about
 ---
 
 Here are some fun programming ideas I've collected.

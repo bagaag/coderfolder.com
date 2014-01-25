@@ -2,7 +2,7 @@
 date: 2014-01-23
 layout: post
 title:  "Customize Key Bindings in Ubuntu's Text Editor (GEdit)"
-tags: [ubuntu]
+tags: ubuntu
 ---
 
 I wanted to insert the date and time into a text file using a keystroke. Here's how.

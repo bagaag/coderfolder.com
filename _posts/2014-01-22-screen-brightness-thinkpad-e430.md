@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Get the screen brightness keys working in Ubuntu on the Thinkpad E430"
-tags: [ubuntu]
+tags: ubuntu
 ---
 
 The hardware on the Thinkpad E430 has thus far worked perfectly in Ubuntu with one exception. The screen brightness function keys. This post on askubuntu explains the problem and solution.
