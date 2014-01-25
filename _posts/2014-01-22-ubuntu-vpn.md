@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ubuntu VPN Troubleshooting"
-categories: ubuntu
+tags: [ubuntu]
 ---
 
 Trying to get a VPN to a Windows 2008 server working on a fresh Ubuntu 12.04 install. Just gave me a useless "connection failed" message. Here's what fixed it:

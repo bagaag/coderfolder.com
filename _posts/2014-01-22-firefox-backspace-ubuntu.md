@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Make the Backspace key work in Firefox on Ubuntu"
-categories: ubuntu
+tags: [ubuntu]
 ---
 
 Another Ubuntu oddity. Who doesn't use the Backspace key to go back in their browser? The Ubuntu users at Firefox, apparently.

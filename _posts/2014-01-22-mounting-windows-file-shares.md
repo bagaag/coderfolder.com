@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mount a Windows file share in Ubuntu as a normal user"
-categories: ubuntu
+tags: [ubuntu]
 ---
 
 This is something I have figure out every time I come back to Ubuntu after not setting up a new machine for a long time.
