@@ -1,1 +1,1 @@
-rsync -avz /home/matt/fun/wiseley.github.io/_site/* mwiseley@mwiseley.webfactional.com:/home/mwiseley/webapps/codeblog/
+rsync -avz /home/matt/fun/code.wiseley.com/_site/* mwiseley@mwiseley.webfactional.com:/home/mwiseley/webapps/codeblog/
