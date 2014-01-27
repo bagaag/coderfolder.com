@@ -10,7 +10,7 @@ My belated New Year's resolution is to rediscover hobby programming. I say redis
 
 I've since sold that business and now have a job in management. While I love what I do, I do miss programming. That longing resulted in a few misguided attempts at doing another startup or embarking on overly ambitious open source projects. Those also quickly felt like work. I was missing the point. 
 
-Finally, it occurred to me that I should just embrace programming for fun. I can work on whatever strikes my interest on my own time and love every minute of it. It reminds me of a conversation with a friend of mine who is an amazing pianist about why he isn't in the music business. His answer? He loves playing too much to risk it becoming work, and any form of work would by definition confine or limit his playing. 
+Finally, it occurred to me that I should just embrace programming for fun by focussing on small but interesting projects that I can work on whenever the mood strikes. It reminds me of a conversation with a friend of mine who is an amazing pianist about why he isn't in the music business. His answer? He loves playing too much to risk it becoming work, and any form of work would by definition confine or limit his playing. 
 
 So maybe I'll keep track of what I work on here. Maybe I won't. We'll see if Jekyll stays fun.
 

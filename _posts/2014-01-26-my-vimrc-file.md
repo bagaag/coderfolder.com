@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "My .vimrc File"
-categories: ubuntu
+tags: [ubuntu, vim]
 ---
 
     colorscheme slate
