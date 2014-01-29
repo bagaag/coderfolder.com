@@ -26,9 +26,9 @@ The algorithm I came up with goes something like this:
 * Before exceeding the current time threshold (10 min, 1 hr, 24 hrs), check to see if we've exceeded the minimum hit threshold (10), and get out if we have.
 * Prune hit counts beyond the minimum threshold that meets the minimum number of hits.
 
-One improvement I might make is to replace the index-based iteration (`for (int i=counts.size()-1; i>=0; i-- )`) with an iterator, allowing us to swap out the implementation of that List if needed with one that doesn't support index-based access. That would require a backwards iterator, which Java doesn't provide out of the box. There's a <a href="http://stackoverflow.com/questions/2102499/iterating-through-a-list-in-reverse-order-in-java">post on Stackoverflow</a> showing how this can be done.
+One improvement I might make is to replace the index-based iteration (`for (int i=counts.size()-1; i>=0; i-- )`) with an iterator, allowing us to swap out the implementation of that List if needed with one that doesn't support index-based access. That would require a backwards iterator, which Java doesn't provide out of the box. There's a <a href="http://stackoverflow.com/questions/2102499/iterating-through-a-list-in-reverse-order-in-java">post on Stackoverflow</a> showing a few possible solutions. My favorite of these suggestions is the `LinkedList.descendingIterator()`.
 
-Here's my full solution:
+Here's my full solution (or <a href="https://gist.github.com/wiseley/8680923">view the Gist</a>):
 
 ~~~ java
 import java.util.*;
