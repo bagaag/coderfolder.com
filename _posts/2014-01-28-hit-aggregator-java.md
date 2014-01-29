@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hit Aggregator Programming Problem"
-tags: java, kata, interviews
+tags: java kata interviews
 ---
 
 This programming problem came to me through an interview some time ago. Maybe I'm slow, but it's not the type of problem I can solve in 10-15 minutes under the stress of an interview and coding on a whiteboard. I didn't get the job, but I did go home and solve the problem on my own - for fun. I ended up spending a couple hours coding it after mulling over the problem for an afternoon during the course of other activities. It's an interesting data structure problem.
