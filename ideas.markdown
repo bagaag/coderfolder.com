@@ -9,6 +9,7 @@ Here are some fun programming ideas I've collected.
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Notepad++ module in C#
 * Extensible site-to-site SSO service
+* Project management and process for developers
 * Word search (false starts, linear/nonlinear)
 * Examples of common data structures
 * Maze generator (square, circular)
