@@ -6,11 +6,13 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
+* Jekyll plugin
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Notepad++ module in C#
 * Extensible site-to-site SSO service
 * Word search (false starts, linear/nonlinear)
 * Examples of common data structures
+* Value pricing
 * Maze generator (square, circular)
 * Generate repeatable random number sets from a seed
 * Music generator with pluggable rule sets
@@ -26,7 +28,7 @@ Ideas that apply specifically to this site:
 
 And here are some I've already done that I'll try and get around to posting about here.
 
-* Browser-based crossword puzzle app in HTML/JS
 * A very lightweight persistence library for Java 
+* Time sheet processor
 * Some simple Java utility classes
 
