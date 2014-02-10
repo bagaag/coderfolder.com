@@ -1,7 +1,7 @@
 ---
 date: 2014-01-23
 layout: post
-title:  "Customize Key Bindings in Ubuntu's Text Editor (GEdit)"
+title:  "Customize Key Bindings in Ubuntu's Text Editor (gedit)"
 tags: ubuntu
 ---
 
@@ -21,5 +21,5 @@ I wanted to insert the date and time into a text file using a keystroke. Here's 
 
  Note that I removed the leading `;` and added F5 to the second quoted value. F5 is the key binding. Browse through the file to see how other key bindings are represented.
 
-6. Save and restart GEdit.
+6. Save and restart gedit.
 

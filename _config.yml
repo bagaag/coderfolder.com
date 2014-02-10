@@ -1,4 +1,4 @@
 name: Programming Is Fun
 markdown: redcarpet
 pygments: true
-
+paginate: 5

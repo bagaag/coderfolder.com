@@ -19,7 +19,7 @@ Here are some fun programming ideas I've collected.
 * Music generator with pluggable rule sets
 * Create a simple game using http://www.lwjgl.org/ or http://jmonkeyengine.org/
 * Write a guage control in canvas
-* Simple minecraft mod
+* Simple minecraft mod - how about a Bell block for hanging in church steeples
 * Wordpress sandbox site with bootstrap and page builder
 
 Ideas that apply specifically to this site:
