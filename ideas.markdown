@@ -6,6 +6,7 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
+* HTML/JS graph paper
 * Jekyll plugin - how about listing the tags for a post and linking them to the tag list page
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Notepad++ module in C#
