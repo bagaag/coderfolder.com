@@ -26,6 +26,7 @@ Here are some fun programming ideas I've collected.
 Ideas that apply specifically to this site:
 
 * Spruce up this Jekyll site's layout and CSS
+* Change to coderfolder
 
 And here are some I've already done that I'll try and get around to posting about here.
 
