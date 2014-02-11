@@ -27,6 +27,7 @@ Ideas that apply specifically to this site:
 
 * Spruce up this Jekyll site's layout and CSS
 * Change to coderfolder
+* Change domain at disqus
 
 And here are some I've already done that I'll try and get around to posting about here.
 
