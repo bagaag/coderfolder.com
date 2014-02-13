@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^hobprog.com$ [OR]
+  RewriteCond %{HTTP_HOST} ^www.hobprog.com$
+  RewriteRule (.*)$ http://www.coderfolder.com/$1 [R=301,L]
+</IfModule>
