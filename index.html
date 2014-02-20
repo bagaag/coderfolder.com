@@ -1,29 +1,19 @@
 ---
 layout: default
-title: Welcome
+title: These are the posts.
 tags: about
+ishome: true
 ---
 
 <div id="home">
 
-  <p>Browse by tag:</p>  
+  {% include paginator.html %}
 
-<ul id="tagcloud">{% for tag in site.tags %}
-  <li><a href="/tag/{{ tag[0] }}">{{ tag[0] }}</a> <span>({{ tag[1].size }})</span></li>{% endfor %}
-</ul>
+  {% for post in paginator.posts %}
+    <p class="blog-list-title"><span class="blog-list-date">{{ post.date | date: "%Y-%m-%d" }} -</span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+    <div class="blog-list-excerpt">{{ post.excerpt }}</div>
+  {% endfor %}
 
-  <p>Blog posts:</p>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <p>Pages:</p>
-  <ul class="posts">
-    {% for page in site.pages %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% include paginator.html showfirst="true" %}
 
 </div>

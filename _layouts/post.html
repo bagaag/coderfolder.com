@@ -1,21 +1,43 @@
 ---
 layout: default
 ---
-<p class="meta">{{ page.date | date: "%Y-%m-%d" }}</p>
+                <!--<p class="lead">by <a href="index.php">Start Bootstrap</a></p>-->
+                <hr>
+                <p>
+                    <span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%Y-%m-%d" }}</p>
+                <hr>
+                <!--
+                <img src="http://placehold.it/900x300" class="img-responsive">
+                <hr>
+                -->
+                <!--<p class="lead">..</p>-->
 
-<div class="post">
-{{ content }}
-</div>
+                {{ content }}
+                
+                <hr>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'codeisfun'; 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                <!-- the comment box -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- the comments -->
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = 'codeisfun'; 
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 

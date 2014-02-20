@@ -1,4 +1,5 @@
 name: Programming Is Fun
 markdown: redcarpet
 pygments: true
-paginate: 5
+paginate: 10
+include: [ ".htaccess" ]
