@@ -9,6 +9,7 @@ Here are some fun programming ideas I've collected.
 * HTML/JS graph paper
 * Jekyll plugin - how about listing the tags for a post and linking them to the tag list page
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
+* Rails project to connect people in a group for 1-1 meetings
 * Notepad++ module in C#
 * Extensible site-to-site SSO service
 * Project management and process for developers
@@ -25,9 +26,7 @@ Here are some fun programming ideas I've collected.
 
 Ideas that apply specifically to this site:
 
-* Spruce up this Jekyll site's layout and CSS
-* Change to coderfolder
-* Change domain at disqus
+* Add a Bootswatch 
 
 And here are some I've already done that I'll try and get around to posting about here.
 
