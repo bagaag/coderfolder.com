@@ -11,6 +11,7 @@ Here are some fun programming ideas I've collected.
 * Jekyll plugin - how about listing the tags for a post and linking them to the tag list page
 * Rails project to connect people in a group for 1-1 meetings
 * Write an SVG guage control
+* A round-trip BDD example
 * Notepad++ module in C#
 * Extensible site-to-site SSO service
 * Project management and process for developers
