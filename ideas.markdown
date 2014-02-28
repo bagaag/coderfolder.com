@@ -7,9 +7,10 @@ tags: about
 Here are some fun programming ideas I've collected.
 
 * HTML/JS graph paper
+* Katas from codewars.com
 * Jekyll plugin - how about listing the tags for a post and linking them to the tag list page
-* Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Rails project to connect people in a group for 1-1 meetings
+* Write an SVG guage control
 * Notepad++ module in C#
 * Extensible site-to-site SSO service
 * Project management and process for developers
@@ -20,13 +21,13 @@ Here are some fun programming ideas I've collected.
 * Generate repeatable random number sets from a seed
 * Music generator with pluggable rule sets
 * Create a simple game using http://www.lwjgl.org/ or http://jmonkeyengine.org/
-* Write a guage control in canvas
 * Simple minecraft mod - how about a Bell block for hanging in church steeples
 * Wordpress sandbox site with bootstrap and page builder
 
 Ideas that apply specifically to this site:
 
 * Add a Bootswatch 
+* Jekyll-based personal programming knowledgebase (big, needs some planning)
 
 And here are some I've already done that I'll try and get around to posting about here.
 
