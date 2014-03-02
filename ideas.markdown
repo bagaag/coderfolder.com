@@ -6,7 +6,6 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
-* HTML/JS graph paper
 * Katas from codewars.com
 * Jekyll plugin - how about listing the tags for a post and linking them to the tag list page
 * Rails project to connect people in a group for 1-1 meetings
