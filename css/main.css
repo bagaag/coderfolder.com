@@ -15,3 +15,14 @@
 .pagination {
   margin: 10px 0px;
 }
+
+/* bootswatch/superhero customization */
+body { 
+  font-weight: 400;
+}
+code {
+  background-color: inherit;
+  color: yellow;
+}
+
+

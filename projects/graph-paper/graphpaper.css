@@ -16,6 +16,7 @@ body {
   border: #ccc 1px solid;
   margin: 0 10px 0 0; 
   padding: 10px;
+  background-color: white;
 }
 
 .field {
