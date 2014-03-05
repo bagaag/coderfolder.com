@@ -4,7 +4,14 @@ layout: default
                 <!--<p class="lead">by <a href="index.php">Start Bootstrap</a></p>-->
                 <hr>
                 <p>
-                    <span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%Y-%m-%d" }}</p>
+                    <span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%Y-%m-%d" }} 
+                    {% if page.tags != empty %} 
+                      in 
+                    {% endif %}
+                    {% for tag in page.tags %}
+                        &nbsp;<a href="/tag/{{tag}}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                </p>
                 <hr>
                 <!--
                 <img src="http://placehold.it/900x300" class="img-responsive">

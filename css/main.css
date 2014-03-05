@@ -25,4 +25,11 @@ code {
   color: yellow;
 }
 
-
+/* tag list */
+.well a {
+  /*color: #DF691A;*/
+  color: #FC8230;
+}
+.tagsize {
+  font-size: 0.8em;
+}

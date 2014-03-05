@@ -7,7 +7,7 @@ tags: about
 Here are some fun programming ideas I've collected.
 
 * Katas from codewars.com
-* Jekyll plugin - how about listing the tags for a post and linking them to the tag list page
+* A placeholder image server featuring guinea pigs
 * Rails project to connect people in a group for 1-1 meetings
 * Write an SVG guage control
 * A round-trip BDD example
@@ -26,7 +26,6 @@ Here are some fun programming ideas I've collected.
 
 Ideas that apply specifically to this site:
 
-* Add a Bootswatch 
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Automate updates to the static site from this repo
 
