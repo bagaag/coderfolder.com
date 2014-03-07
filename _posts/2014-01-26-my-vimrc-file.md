@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My .vimrc File"
-tags: [ubuntu, vim]
+tags: ubuntu editors
 ---
 
     colorscheme slate
