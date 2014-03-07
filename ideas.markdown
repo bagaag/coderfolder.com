@@ -29,9 +29,20 @@ Ideas that apply specifically to this site:
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Automate updates to the static site from this repo
 
-And here are some I've already done that I'll try and get around to posting about here.
+And here are some I've already done that I'll try an
+d get around to posting about here.
 
 * A very lightweight persistence library for Java 
 * Time sheet processor
 * Some simple Java utility classes
 
+An AI project:
+* Simulate a baby's/child's brain
+* Observe environment
+  * Need to create artificial environment as test harness - a computer language?
+* Try to do things to the environment
+  * Attempt random actions and keep those that give some result, omit those that give an error
+* Learn what is possible and what "works" through trial and error
+  * Need to identify some basic goals, like outputing a string, computing numbers, simple algorithms
+* Observe and mimic others
+  * Given a simple working program, learn from it
