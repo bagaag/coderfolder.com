@@ -6,6 +6,7 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
+* Simple server side script to write and edit Jekyll posts, kick off commits and site builds
 * Katas from codewars.com
 * A placeholder image server featuring guinea pigs
 * Rails project to connect people in a group for 1-1 meetings
