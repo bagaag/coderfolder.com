@@ -6,12 +6,12 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
+* Tic tac toe game with computer player
 * Katas from codewars.com
 * A placeholder image server featuring guinea pigs
 * Rails project to connect people in a group for 1-1 meetings
 * Write an SVG guage control
 * A round-trip BDD example
-* Notepad++ module in C#
 * Extensible site-to-site SSO service
 * Project management and process for developers
 * Word search (false starts, linear/nonlinear)
@@ -37,12 +37,17 @@ d get around to posting about here.
 * Some simple Java utility classes
 
 An AI project:
+
 * Simulate a baby's/child's brain
-* Observe environment
-  * Need to create artificial environment as test harness - a computer language?
-* Try to do things to the environment
+* Observe environment and experiment, repeat what works
+* Use a programming language as the environment, programming tasks as the skill
+* Child learns to talk by listening and mimicking by making noises
   * Attempt random actions and keep those that give some result, omit those that give an error
 * Learn what is possible and what "works" through trial and error
   * Need to identify some basic goals, like outputing a string, computing numbers, simple algorithms
 * Observe and mimic others
   * Given a simple working program, learn from it
+
+
+
+
