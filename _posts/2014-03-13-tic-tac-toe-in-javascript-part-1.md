@@ -212,101 +212,6 @@ License: GPL - http://www.gnu.org/licenses/gpl.html
       }
     }
     
-    // looks for an imminent opponent win and prevents it
-    function strategyAvertLoss() {
-      var isPlayer = function(val) { return val==player; }
-      var isBlank = function(val) { return val==''; }
-      var findImminentLoss = function(a,b,c,i){
-        if (matches([a,b,c], isPlayer)==2 && matches([a,b,c], isBlank)==1) {
-          ret = findInArray([a,b,c], isBlank);
-          return true;
-        } else return false;
-      };
-      var ret = -1;
-      var ix = -1;
-      // search rows
-      ix = iterateRows(findImminentLoss);
-      if (ix>-1 && ret>-1) return [ret, ix];
-      // search columns
-      ix = iterateCols(findImminentLoss);
-      if (ix>-1 && ret>-1) return [ix, ret];
-      // search diagonals
-      ix = iterateDiags(findImminentLoss);
-
-      if (ix>-1 && ret>-1) return convertDiag(ix, ret);
-      else return false;
-    }
-
-    // looks for a rol/col/diag that poses
-    // an opportunity for a win or nearest win    
-    function strategyBestOpportunity() {
-      var ix = -1, y = -1, x = -1, d = -1;
-      var count = 0, countY = 0, countX = 0, countD = 0;
-      // look for the best opportunity, to be passed to iterateRows/Cols
-      var seekOpportunity = function(a,b,c,i){
-        var match = 0;
-        var opponent = 0;
-        var blank = 0;
-        if (a==computer) match++; else if (a==player) opponent++; else if (a=='') blank++;
-        if (b==computer) match++; else if (b==player) opponent++; else if (b=='') blank++;
-        if (c==computer) match++; else if (c==player) opponent++; else if (c=='') blank++;
-        if (match>0 && match<3 && opponent==0) {
-          if (match > count) {
-            count = match;
-            ix = i;
-          }
-        }
-      };
-      // get the best row
-      iterateRows(seekOpportunity);
-      countY = count;
-      y = ix; 
-      ix = -1; count = 0;
-      // get the best column
-      iterateCols(seekOpportunity);
-      countX = count;
-      x = ix;
-      ix = -1; count = 0;
-      // get the best diagonal
-      iterateDiags(seekOpportunity);
-      countD = count;
-      d = ix;
-      ix = -1; count = 0;
-      // determine the winning strategy (col, row or diag)
-      var turnX = -1, turnY = -1;
-      if (countX >= countY && countX >= countD) {
-        turnX = x;
-        for (ix=0; ix<3; ix++) {
-          if (val(x,ix)=='') { 
-            turnY = ix;
-            break;
-          }
-        }
-      }
-      else if (countY >= countX && countY >= countD) {
-        turnY = y;
-        for (ix=0; ix<3; ix++) {
-          if (val(ix,y)=='') {
-            turnX = ix;
-            break;
-          }
-        }
-      }
-      else if (countD >= countX && countD >= countY) {
-        if (val(1,1)=='') {turnX = 1; turnY = 1;}
-        else if (d == 0) {
-          if (val(0,0)=='') {turnX = 0; turnY = 0;}
-          else {turnX = 2; turnY = 2;}
-        }
-        else {
-          if (val(2,0)=='') {turnX = 2; turnY = 0;}
-          else {turnX = 0; turnY = 2;}
-        }
-      } 
-      if (turnX==-1 || turnY==-1) return false;
-      else return [turnX,turnY];
-    }
-
     // go in a randomly selected blank space
     function strategyRandom() {
       // gather all the blank spots in an array
@@ -324,17 +229,6 @@ License: GPL - http://www.gnu.org/licenses/gpl.html
       else return false;
     }
     
-    // no strategy - just take the first blank space
-    function strategySequential() {
-      // just take the first available space
-      for (var x=0; x<3; x++) {
-        for (var y=0; y<3; y++) {
-          if (val(x,y)=='') return [x,y];
-        }
-      }
-      return false;
-    }
-
     // computer takes its turn
     function computerTurn() {
       var strategies = [];
