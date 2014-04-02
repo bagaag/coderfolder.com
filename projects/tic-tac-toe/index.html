@@ -34,16 +34,17 @@ License: GPL - http://www.gnu.org/licenses/gpl.html
     #status { font-size: 1.2em; font-weight: bold; }
   </style>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="snap.svg.js"></script>
   <script>
     var computer = 'O'; // the computer is X
     var player = 'X'; // you are O
     var turn = player; // the player goes first
     var xwins = 0, owins = 0; // win tallies
     var turns = 0;
-    
+
     /* =============================== */
     /* GAME BOARD NAVIGATION FUNCTIONS */
-    
+
     // test each cell in each row with a function and return the index of
     // the first whose values causes the function to return true; 
     // return -1 if no row returns true

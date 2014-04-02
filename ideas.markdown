@@ -6,7 +6,6 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
-* Tic tac toe game with computer player
 * Simple server side script to write and edit Jekyll posts, kick off commits and site builds
 * Katas from codewars.com
 * A placeholder image server featuring guinea pigs
@@ -14,10 +13,10 @@ Here are some fun programming ideas I've collected.
 * Write an SVG guage control
 * A round-trip BDD example
 * Extensible site-to-site SSO service
-* Project management and process for developers
+* Post: Project management and process for developers
 * Word search (false starts, linear/nonlinear)
 * Examples of common data structures
-* Value pricing
+* Post: Value pricing
 * Maze generator (square, circular)
 * Generate repeatable random number sets from a seed
 * Music generator with pluggable rule sets
@@ -30,8 +29,7 @@ Ideas that apply specifically to this site:
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Automate updates to the static site from this repo
 
-And here are some I've already done that I'll try an
-d get around to posting about here.
+And here are some I've already done that I'll try and get around to posting about here.
 
 * A very lightweight persistence library for Java 
 * Time sheet processor
