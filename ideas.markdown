@@ -26,6 +26,7 @@ Here are some fun programming ideas I've collected.
 
 Ideas that apply specifically to this site:
 
+* Server-side search that uses grep and returns json for ajax calls
 * Jekyll-based personal programming knowledgebase (big, needs some planning)
 * Automate updates to the static site from this repo
 
@@ -34,19 +35,4 @@ And here are some I've already done that I'll try and get around to posting abou
 * A very lightweight persistence library for Java 
 * Time sheet processor
 * Some simple Java utility classes
-
-An AI project:
-
-* Simulate a baby's/child's brain
-* Observe environment and experiment, repeat what works
-* Use a programming language as the environment, programming tasks as the skill
-* Child learns to talk by listening and mimicking by making noises
-  * Attempt random actions and keep those that give some result, omit those that give an error
-* Learn what is possible and what "works" through trial and error
-  * Need to identify some basic goals, like outputing a string, computing numbers, simple algorithms
-* Observe and mimic others
-  * Given a simple working program, learn from it
-
-
-
 
