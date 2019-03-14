@@ -1,5 +1,6 @@
 name: Programming Is Fun
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 10
 include: [ ".htaccess" ]
+gems: [jekyll-paginate]
