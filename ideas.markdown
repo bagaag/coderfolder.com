@@ -6,6 +6,8 @@ tags: about
 
 Here are some fun programming ideas I've collected.
 
+* Console version of the Sorry board game
+* Virtual ukulele using React, SVG and HTML5 Audio
 * Simple server side script to write and edit Jekyll posts, kick off commits and site builds
 * Katas from codewars.com
 * A placeholder image server featuring guinea pigs
