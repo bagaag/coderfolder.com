@@ -1,6 +1,6 @@
 name: Programming Is Fun
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 paginate: 10
 include: [ ".htaccess" ]
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
